@@ -1,0 +1,16 @@
+PODS:
+  - ATAuthSDK (2.12.0)
+
+DEPENDENCIES:
+  - ATAuthSDK (from `../`)
+
+EXTERNAL SOURCES:
+  ATAuthSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ATAuthSDK: 50e4b6ed869ecf878cae0dd0e0543a88e17a0085
+
+PODFILE CHECKSUM: ed49aadade6cdb2ba03a2dc53c1d9cdbfdd3112c
+
+COCOAPODS: 1.11.2

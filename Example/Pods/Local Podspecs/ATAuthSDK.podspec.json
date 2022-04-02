@@ -1,0 +1,29 @@
+{
+  "name": "ATAuthSDK",
+  "version": "2.12.0",
+  "summary": "阿里云号码认证SDK",
+  "homepage": "https://github.com/CaiChenghan/ATAuthSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "蔡成汉": "1178752402@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/CaiChenghan/ATAuthSDK.git",
+    "tag": "2.12.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "VALID_ARCHS": "x86_64 armv7 arm64"
+  },
+  "resources": "ATAuthSDK/ATAuthSDK.framework/ATAuthSDK.bundle",
+  "vendored_frameworks": [
+    "ATAuthSDK/ATAuthSDK.framework",
+    "ATAuthSDK/YTXMonitor.framework",
+    "ATAuthSDK/YTXOperators.framework"
+  ]
+}
