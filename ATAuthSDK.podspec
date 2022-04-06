@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ATAuthSDK'
-  s.version          = '2.12.5'
+  s.version          = '2.12.4'
   s.summary          = '阿里云一键登录SDK'
   s.homepage         = 'https://github.com/wangdean/ATAuthSDK'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
