@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wangdean' => '404926036@qq.com' }
   s.source           = { :git => 'https://github.com/wangdean/ATAuthSDK.git', :tag => s.version.to_s }
+  s.source_files = 'ATAuthSDK/**/*'
   s.ios.deployment_target = '9.0'
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
   s.resources        = 'ATAuthSDK/ATAuthSDK.framework/ATAuthSDK.bundle'

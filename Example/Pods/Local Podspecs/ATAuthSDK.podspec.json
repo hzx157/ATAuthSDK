@@ -1,21 +1,21 @@
 {
   "name": "ATAuthSDK",
-  "version": "2.12.0",
-  "summary": "阿里云号码认证SDK",
-  "homepage": "https://github.com/CaiChenghan/ATAuthSDK",
+  "version": "2.12.4",
+  "summary": "阿里云一键登录SDK",
+  "homepage": "https://github.com/wangdean/ATAuthSDK",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "蔡成汉": "1178752402@qq.com"
+    "wangdean": "404926036@qq.com"
   },
   "source": {
-    "git": "https://github.com/CaiChenghan/ATAuthSDK.git",
-    "tag": "2.12.0"
+    "git": "https://github.com/wangdean/ATAuthSDK.git",
+    "tag": "2.12.4"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "10.0"
   },
   "pod_target_xcconfig": {
     "VALID_ARCHS": "x86_64 armv7 arm64"
