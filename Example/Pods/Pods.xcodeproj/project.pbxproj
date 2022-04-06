@@ -25,7 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D4CFAEE67C8842C3450D1918FC9EC758 /* PBXContainerItemProxy */ = {
+		BBA2A769AF9ED4B084068FC8E429126A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -35,26 +35,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03B9FBE76DC459C34A2FAB9749B5C478 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		099E45A8C9F08951D5C7B161051A4838 /* ATAuthSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ATAuthSDK.debug.xcconfig; sourceTree = "<group>"; };
+		143F6A6594FBFE98DD46EF3AB5E7C325 /* ATAuthSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ATAuthSDK.bundle; path = ATAuthSDK/ATAuthSDK.framework/ATAuthSDK.bundle; sourceTree = "<group>"; };
 		16D094304301F532EAC77D2AEB7B5EC4 /* Pods-ATAuthSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ATAuthSDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		17CCB01843C34F127BA483CE3CC5D972 /* ATAuthSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ATAuthSDK.release.xcconfig; sourceTree = "<group>"; };
+		17D2B96655A4EE09F6FD69BA4656EC1B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		19C330C383348EFE62D5EE939F636944 /* Pods-ATAuthSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ATAuthSDK_Example-resources.sh"; sourceTree = "<group>"; };
-		1D8DDEE626BA8732BAAAB49E26CCE4D6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		209286107F560E340CF67481BB60A125 /* ATAuthSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ATAuthSDK.debug.xcconfig; sourceTree = "<group>"; };
 		3094762530D7D075587CD51047F4C7E7 /* Pods-ATAuthSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ATAuthSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		390B45433A618B031F4F8938F18544E6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		6B50AB4DD4817B716BD1353C0A4859B9 /* Pods-ATAuthSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ATAuthSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7A37751177217853310D83AACD7E1DF7 /* YTXMonitor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YTXMonitor.framework; path = ATAuthSDK/YTXMonitor.framework; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC31B16C41BEA6EA42F0508BB338F215 /* ATAuthSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ATAuthSDK.release.xcconfig; sourceTree = "<group>"; };
 		B23437540A9409FAE660E59535F22272 /* Pods-ATAuthSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ATAuthSDK_Example.modulemap"; sourceTree = "<group>"; };
 		B77E33446AD378ABF312036DEB5CAA99 /* Pods-ATAuthSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATAuthSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BB9A56914732B93EF190D040E83B78A2 /* YTXOperators.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YTXOperators.framework; path = ATAuthSDK/YTXOperators.framework; sourceTree = "<group>"; };
-		C5B922232890C26B77EE0481BCE85285 /* ATAuthSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ATAuthSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C9D2A3C4CDB7B7E0D8BEF60FC32B3869 /* ATAuthSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ATAuthSDK.framework; path = ATAuthSDK/ATAuthSDK.framework; sourceTree = "<group>"; };
 		CE08C37B456C016400A79E4A6C8EC325 /* Pods-ATAuthSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ATAuthSDK_Example"; path = Pods_ATAuthSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE7A8678F87F25BE5FE037E22ADB39D8 /* ATAuthSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ATAuthSDK.bundle; path = ATAuthSDK/ATAuthSDK.framework/ATAuthSDK.bundle; sourceTree = "<group>"; };
 		CF99C9BA0E4572764DE8119DAC450290 /* Pods-ATAuthSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATAuthSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D96A5B74938761F55762C7D6459D2B02 /* Pods-ATAuthSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ATAuthSDK_Example-dummy.m"; sourceTree = "<group>"; };
-		E7357108427D13457AA0053CB3B72E1E /* ATAuthSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ATAuthSDK.framework; path = ATAuthSDK/ATAuthSDK.framework; sourceTree = "<group>"; };
+		E67609526BE4C8C1FA0744AC6CD22219 /* ATAuthSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ATAuthSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F15CC6F0EFC79D0A4C7E568640541115 /* Pods-ATAuthSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ATAuthSDK_Example-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,32 +68,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0FD212E039A1A6430E294568F268D76A /* ATAuthSDK */ = {
+		3961473BF4738C1C76F9A5517E762370 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				CE7A8678F87F25BE5FE037E22ADB39D8 /* ATAuthSDK.bundle */,
-				2C14D34963FD4512B2DC3A372521C28F /* Frameworks */,
-				58C43E9A0C105AFAC693608759A4D439 /* Pod */,
-				CD71551A6EEB448E39E26B8DA2869BD8 /* Support Files */,
+				E67609526BE4C8C1FA0744AC6CD22219 /* ATAuthSDK.podspec */,
+				17D2B96655A4EE09F6FD69BA4656EC1B /* LICENSE */,
+				390B45433A618B031F4F8938F18544E6 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3EE311463A9BF5A38300E52639F4A856 /* ATAuthSDK */ = {
+			isa = PBXGroup;
+			children = (
+				143F6A6594FBFE98DD46EF3AB5E7C325 /* ATAuthSDK.bundle */,
+				6D6F6D27177BF06525BA33B0FCF05D9A /* Frameworks */,
+				3961473BF4738C1C76F9A5517E762370 /* Pod */,
+				6A0E643F360C1D129A4AA61F393CE4E6 /* Support Files */,
 			);
 			name = ATAuthSDK;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		2C14D34963FD4512B2DC3A372521C28F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E7357108427D13457AA0053CB3B72E1E /* ATAuthSDK.framework */,
-				7A37751177217853310D83AACD7E1DF7 /* YTXMonitor.framework */,
-				BB9A56914732B93EF190D040E83B78A2 /* YTXOperators.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		4C4D664E42A760108FA08CE69830AAD3 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0FD212E039A1A6430E294568F268D76A /* ATAuthSDK */,
+				3EE311463A9BF5A38300E52639F4A856 /* ATAuthSDK */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -108,14 +106,22 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		58C43E9A0C105AFAC693608759A4D439 /* Pod */ = {
+		6A0E643F360C1D129A4AA61F393CE4E6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C5B922232890C26B77EE0481BCE85285 /* ATAuthSDK.podspec */,
-				03B9FBE76DC459C34A2FAB9749B5C478 /* LICENSE */,
-				1D8DDEE626BA8732BAAAB49E26CCE4D6 /* README.md */,
+				099E45A8C9F08951D5C7B161051A4838 /* ATAuthSDK.debug.xcconfig */,
+				AC31B16C41BEA6EA42F0508BB338F215 /* ATAuthSDK.release.xcconfig */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ATAuthSDK";
+			sourceTree = "<group>";
+		};
+		6D6F6D27177BF06525BA33B0FCF05D9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9D2A3C4CDB7B7E0D8BEF60FC32B3869 /* ATAuthSDK.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		719F9BCBB68568D281FF9591997D1BCF /* Pods-ATAuthSDK_Example */ = {
@@ -141,16 +147,6 @@
 				719F9BCBB68568D281FF9591997D1BCF /* Pods-ATAuthSDK_Example */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		CD71551A6EEB448E39E26B8DA2869BD8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				209286107F560E340CF67481BB60A125 /* ATAuthSDK.debug.xcconfig */,
-				17CCB01843C34F127BA483CE3CC5D972 /* ATAuthSDK.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ATAuthSDK";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -206,7 +202,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				E9527C38C35FDD3D516FF20E6E09FA5C /* PBXTargetDependency */,
+				E11FBAB24EEB07A540F0613F467B7A6F /* PBXTargetDependency */,
 			);
 			name = "Pods-ATAuthSDK_Example";
 			productName = Pods_ATAuthSDK_Example;
@@ -263,11 +259,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E9527C38C35FDD3D516FF20E6E09FA5C /* PBXTargetDependency */ = {
+		E11FBAB24EEB07A540F0613F467B7A6F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ATAuthSDK;
 			target = 2EBAA736C594D02DB4A9D3ECD6B945F5 /* ATAuthSDK */;
-			targetProxy = D4CFAEE67C8842C3450D1918FC9EC758 /* PBXContainerItemProxy */;
+			targetProxy = BBA2A769AF9ED4B084068FC8E429126A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -403,7 +399,7 @@
 		};
 		8EC5B62FACC9BFC7F4EA0BA0FCC4F5BC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 209286107F560E340CF67481BB60A125 /* ATAuthSDK.debug.xcconfig */;
+			baseConfigurationReference = 099E45A8C9F08951D5C7B161051A4838 /* ATAuthSDK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -483,7 +479,7 @@
 		};
 		E6506CED0E33CA429D6948AA6ECC0127 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17CCB01843C34F127BA483CE3CC5D972 /* ATAuthSDK.release.xcconfig */;
+			baseConfigurationReference = AC31B16C41BEA6EA42F0508BB338F215 /* ATAuthSDK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
