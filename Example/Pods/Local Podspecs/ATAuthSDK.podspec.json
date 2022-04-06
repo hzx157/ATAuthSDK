@@ -1,6 +1,6 @@
 {
   "name": "ATAuthSDK",
-  "version": "2.12.5",
+  "version": "2.12.6",
   "summary": "阿里云一键登录SDK",
   "homepage": "https://github.com/wangdean/ATAuthSDK",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/wangdean/ATAuthSDK.git",
-    "tag": "2.12.5"
+    "tag": "2.12.6"
   },
   "platforms": {
     "ios": "10.0"
