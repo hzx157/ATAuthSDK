@@ -3,7 +3,7 @@
 
 #### 1. 指定git引用
 ```ruby
-pod 'ATAuthSDK', :git => 'https://github.com/wangdean/ATAuthSDK.git', :tag => '2.12.4'
+pod 'ATAuthSDK', :git => 'https://github.com/hzx157/ATAuthSDK.git', :tag => '2.12.4'
 ```
 
 ## Author
