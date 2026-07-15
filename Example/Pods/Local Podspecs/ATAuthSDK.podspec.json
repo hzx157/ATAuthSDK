@@ -1,29 +1,21 @@
 {
   "name": "ATAuthSDK",
-  "version": "2.12.6",
-  "summary": "阿里云一键登录SDK",
-  "homepage": "https://github.com/wangdean/ATAuthSDK",
+  "version": "2.14.18",
+  "summary": "ATAuthSDK binary framework.",
+  "description": "ATAuthSDK binary framework.",
+  "homepage": "https://github.com/aliyun/",
   "license": {
-    "type": "MIT",
-    "file": "LICENSE"
+    "type": "none"
   },
   "authors": {
-    "wangdean": "404926036@qq.com"
+    "aliyun": "aliyun.com"
   },
   "source": {
     "git": "https://github.com/wangdean/ATAuthSDK.git",
-    "tag": "2.12.6"
+    "tag": "2.14.18"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "9.0"
   },
-  "pod_target_xcconfig": {
-    "VALID_ARCHS": "x86_64 armv7 arm64"
-  },
-  "resources": "ATAuthSDK/ATAuthSDK.framework/ATAuthSDK.bundle",
-  "vendored_frameworks": [
-    "ATAuthSDK/ATAuthSDK.framework",
-    "ATAuthSDK/YTXMonitor.framework",
-    "ATAuthSDK/YTXOperators.framework"
-  ]
+  "vendored_frameworks": "ATAuthSDK_D/ATAuthSDK_D.xcframework"
 }

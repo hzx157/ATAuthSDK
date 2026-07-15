@@ -7,7 +7,7 @@
 //
 
 #import "CCViewController.h"
-#import <ATAuthSDK/ATAuthSDK.h>
+#import <ATAuthSDK_D/ATAuthSDK.h>
 
 @interface CCViewController ()
 
