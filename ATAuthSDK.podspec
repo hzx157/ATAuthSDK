@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ATAuthSDK_D'
-  s.version          = '2.14.12'
+  s.version          = '2.14.13'
   s.summary          = 'A short description of ATAuthSDK.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
