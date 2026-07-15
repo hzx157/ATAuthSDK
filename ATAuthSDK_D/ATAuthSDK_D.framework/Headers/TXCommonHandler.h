@@ -8,6 +8,7 @@
 #import "TXCustomModel.h"
 #import "PNSReporter.h"
 
+
 typedef NS_ENUM(NSInteger, PNSAuthType) {
     PNSAuthTypeVerifyToken = 1,  //本机号码校验
     PNSAuthTypeLoginToken = 2    //一键登录
@@ -31,6 +32,7 @@ typedef NS_ENUM(NSInteger, PNSAuthType) {
  *  SDK鉴权，app生命周期内调用一次
  *  @param  info app对应的秘钥
  *  @param  complete 结果异步回调到主线程，成功时resultDic=@{resultCode:600000, msg:...}，其他情况时"resultCode"值请参考PNSReturnCode
+ *  @note 重复调用时以最新info信息为准
  */
 - (void)setAuthSDKInfo:(NSString * _Nonnull)info complete:(void(^_Nullable)(NSDictionary * _Nonnull resultDic))complete;
 
